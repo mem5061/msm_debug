@@ -21,6 +21,7 @@ class ActorsController < ApplicationController
 
     render("show")
   end
+  
 
   def edit_form
     @actor = Actor.find(params[:id])
